@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Sencilla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pokédex Básica</h1>
+        
+        <div class="search-container">
+            <input type="text" id="pokemon-input" placeholder="Nombre o ID de Pokémon">
+            <button id="search-btn">Buscar</button>
+        </div>
+        
+        <div id="loader" style="display: none;">Cargando...</div>
+        
+        <div id="pokemon-container">
+            <!-- Aquí se mostrará el Pokémon -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
